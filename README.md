@@ -6,3 +6,8 @@ ubuntu vagrant on all platform
 vagrant box add "bento/ubuntu-18.04" ./virtualbox.box
 vagrant box list
 ```
+
+## Install the proxy plugin
+```
+vagrant plugin install vagrant-proxyconf
+```
